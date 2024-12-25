@@ -1,0 +1,64 @@
+/* Regist.module.css */
+
+.RegistApp {
+  text-align: center;
+  width: 100 auto;
+  height: 96vh;
+  padding: 1vw;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.RegistContents {
+  padding: 1vw;
+  width: 40vw;
+  height: 65vh;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 20vh;
+}
+
+.TextBox{
+  height: auto;
+  margin-top: 4vh;
+}
+
+.Styled_Input{
+  background-color: white;
+  padding: 0.5vw;
+  margin:  auto;
+  text-align: center;
+  width: 20vw;
+}
+
+.Registgender-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+
+.Registgender-options {
+  display: flex;
+  gap: 1vw;
+  /* 각 라디오 버튼 사이의 간격 조절 */
+}
+
+
+.RegistButton {
+  border: none;
+  width: 75%;
+  background-color: #306970;
+  color: white;
+  padding: 15px 0;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.RegistButton:hover {
+  background-color: #6f929f;
+}

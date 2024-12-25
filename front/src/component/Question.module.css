@@ -1,0 +1,11 @@
+.modalContent2 {
+  width: 34.4vw;
+  height: 10vh;
+  background: rgba(255, 255, 255, 0.5);
+  border: 2px solid #000;
+  margin-left: 29.15vw;
+  margin-top: 7.69vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}

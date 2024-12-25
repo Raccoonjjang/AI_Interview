@@ -1,0 +1,100 @@
+/* PrepareWeb.module.css */
+
+.PrepareWebContainer {
+  align-items: center;
+  margin: 0 auto;
+  width: 40vw;
+  height: 90vh;
+  background: black;
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.PrepareWeb-Container {
+    padding: 2vh; /* 뷰포트 높이에 따른 패딩 */
+    text-align: top;
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PrepareWeb-Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.PrepareWeb-Header h1 {
+    font-size: 2vw;
+    color: #3a3939;
+    margin-left: 11vw;
+}
+
+.button1 {
+    width: 5vw;
+    height: 3vh;
+    margin-left: 4vw;
+    cursor: pointer;
+}
+
+.button {
+  width: 5vw;
+  height: 3vh;
+  margin: 0 auto;
+}
+
+.button2 {
+  width: 5vw;
+  height: 3vh;
+  margin-left: 1vw;
+}
+.WebCam-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 40vh;
+  margin-top: 9vh;
+}
+
+.WebCam{
+    min-width: 20vw; /* 웹캠 창의 최소 크기에 맞춰 설정 */
+    min-height: 10vh; /* 웹캠 창의 최소 크기에 맞춰 설정 */
+}
+
+.VolumeBarContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw; /* 화면 너비의 60% */
+    height: 20vh; /* 화면 높이의 20% */
+    margin-top: 12vh; /* 화면 높이의 2% */
+}
+
+.Bars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.8rem;
+    width: 10vw; /* 화면 너비의 50% */
+  }
+  
+  .Bar {
+    width: 25vw; /* 화면 너비의 25% */
+    height: 4vh; /* 화면 높이의 4% */
+    border-radius: 5px;
+  }
+
+.BarFilled {
+  background-color: #4ade80;
+}
+
+.BarEmpty {
+  background-color: #c0c0c0; /* 회색으로 변경 */
+}

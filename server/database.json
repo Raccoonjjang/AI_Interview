@@ -1,0 +1,8 @@
+{
+    "host": "10.101.66.5",
+    "user": "listmember",
+    "password": "1234",
+    "port": "3306",
+    "database": "project"
+}
+

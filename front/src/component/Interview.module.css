@@ -1,0 +1,114 @@
+.InterviewContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.InterviewHeader h1 {
+    font-size: 28px;
+    color: #3a3939;
+
+}
+
+.Separator {
+    width: 1130px;
+    /* 가로선의 전체 너비 */
+    height: 1px;
+    /* 가로선의 높이 */
+    background-color: #ccc;
+    /* 가로선의 색상 */
+    border: none;
+    /* 가로선의 테두리 제거 */
+    margin: 10px 0;
+    /* 위아래 여백을 추가하여 내용과 가로선을 구분 */
+
+}
+
+
+
+.ContentListContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ContentList {
+    list-style: none;
+    padding: 0;
+}
+
+.FirstItem {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.SecondItem {
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+
+
+.ContentContainer img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 200px; /* 원하는 가로 크기 */
+    height: auto; /* 세로 크기는 가로 크기에 비례하여 자동 조절 */
+    margin-left: 470px;
+}
+
+.Image1Text {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 420px;
+    margin-top: 15px;
+
+}
+
+.InterviewButton {
+    width: 300px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 420px;
+    border-radius: 5%;
+    background: white;
+    cursor: pointer;
+    font-size: 24px;
+
+}
+
+.InterviewButton:hover {
+    background-color: #ccc;
+}
+
+
+
+.Last-Container {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    font-size: 14px;
+    margin-top: 200px;
+
+}
+.modalContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* 추가: 반투명한 배경 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  

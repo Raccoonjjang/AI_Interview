@@ -1,0 +1,64 @@
+/* Navbar.module.css */
+
+.White-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px; /* 상하로 5px씩 padding을 추가하여 높이 조절 */
+  background-color: white;
+  border-bottom: 1px solid black;
+  z-index: 1000;
+  height: 55px; /* 높이를 조절할 값 (원하는 값으로 수정) */
+}
+
+.Logo {
+  width: 300px;
+  height: auto;
+}
+
+.Text-nav-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+h4 {
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  min-width: 100px;
+  text-align: right;
+}
+
+h5 {
+  margin: 5px 0;
+  cursor: pointer;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+  padding: 8px 0;
+  text-align: center;
+}
+
+h5:last-child {
+  border-bottom: none;
+}
+
+/* 추가 스타일 */
+body {
+  margin-top: 10px; /* 네비게이션 바 높이에 맞게 상단 여백 조절 */
+}

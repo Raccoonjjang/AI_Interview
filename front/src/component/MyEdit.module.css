@@ -1,0 +1,94 @@
+.MyEditContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+}
+
+.EditCentered-box {
+  border: 1px solid #ccc;
+  border-radius: 5%;
+  padding: 20px;
+  width: 700px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.EditSmall-box {
+  height: 150px;
+  background-color: gray(240, 238, 226, 0.966);
+  margin-top: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+  border: 2px solid #fff;
+}
+
+.MyEditText {
+  margin: 10px;
+}
+
+.MyEdit-h2 {
+  font-size: 18px;
+  margin-left: 10px;
+  text-decoration: underline;
+}
+
+.MyEditElement {
+  height: 480px;
+  background-color: gray(240, 238, 226, 0.966);
+  margin-top: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+  border: 2px solid #fff;
+}
+
+.MyEditInputElement {
+  list-style: none;
+  font-size: 14px;
+  margin-right: 35px;
+  margin-top: 30px;
+}
+
+.MyEditInputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Styled_Input {
+  background-color: #d1d1d1;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.Cancel-Button {
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 500px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  width: 60px;
+}
+
+.Cancel-Button:hover {
+  background-color: #ccc;
+  /* 호버 시 배경색 변경 */
+}
+
+.Modify-Complete-Button {
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.Modify-Complete-Button:hover {
+  background-color: #ccc;
+  /* 호버 시 배경색 변경 */
+}

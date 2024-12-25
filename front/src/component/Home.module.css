@@ -1,0 +1,90 @@
+.HomeApp{
+  text-align: center;
+  max-height: 4500px;
+}
+
+.container{
+
+}
+
+.background_Maincolor{
+padding-top: 5%;
+height: 97%;
+background: linear-gradient(to bottom, #305970, white);
+}
+
+.background_Whitecolor{
+padding-top: 5%;
+height: 100%;
+background: white;
+}
+
+.WebPadding{
+padding-left: 20%;
+padding-right: 20%;
+padding-top: 5%;
+padding-bottom: 10%;
+}
+
+.content {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.text {
+width: 100%;
+}
+
+.fontsize_50{
+font-size: 300%;
+}
+.fontsize_25{
+font-size: 150%;
+}
+.font_lineheight{
+line-height: 1.5;
+}
+.font_white{
+color: white;
+}
+
+.background_Lightgray{
+height: 100%;
+background: #f2f2f2
+}
+
+.HomeImage{
+width: 40%;
+}
+
+.HomeImage2{
+width: 70%;
+}
+
+.HomeImage3{
+width: 100%;
+}
+
+.HomeImage4{
+width: 100%
+}
+
+.background_Lastapge{
+padding: 5%;
+height: auto;
+background-color: #305970;
+}
+
+.button{
+height: 60px;
+width: 200px;
+
+background-color: f2f2f2; /* 배경 색상 지정 */
+color: black; /* 글자 색상 지정 */
+font-size: 18px; /* 글자 크기 지정 */
+border-radius: 5px; /* 둥근 모서리 설정 */
+cursor: pointer; /* 포인터 모양으로 변경 */
+box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* 그림자 효과 추가 */
+transition: background 0.3s ease; /* 부드러운 전환 효과 */
+}

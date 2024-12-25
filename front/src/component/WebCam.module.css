@@ -1,0 +1,99 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.App-header {
+  background-color: #00d9ff;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  height: 40px;
+}
+
+.MyText {
+  margin-top: 60px;
+  margin: 5px;
+  text-align: center;
+}
+.Text {
+  margin-top: 0px;
+  text-align: center;
+}
+.CamPage {
+  background-color: #ffffff;
+  padding: 50px;
+  text-align: center;
+  border-radius: 10px;
+  width: 700px;
+  height: 500px;
+  max-width: 900px;
+  margin: 50px auto;
+  
+  align-items: center;
+  
+  position: relative; /* 부모로부터의 상대 위치 설정 추가 */
+}
+.actionButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.actionButton:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.modalContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContainer2 {
+  position:fixed;
+  margin-top: -400px;
+  margin-left: 50px;
+  width: 700px; /* .CamPage의 width와 동일하게 설정 */
+  background: transparent;
+}
+
+.modalContent {
+  width: 900px;
+  height: 600px;
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.modalContent2 {
+  width: 750px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 2px solid #000;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 20px;
+  display: flex; /* 변경된 부분 */
+  justify-content: center; /* 변경된 부분 */
+  align-items: center; /* 변경된 부분 */
+}
